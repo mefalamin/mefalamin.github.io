@@ -12,26 +12,46 @@ a:hover {
   color: #00d1b2;
 }
 
-section{
+.section{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
 .section-1 {
+
 	background: #063647;
+	float: left;
+	width: 30%;
+
 }
+
+.section-5 {
+
+	background: #063647;
+	float: left;
+	width: 60%;
+
+}
+
 
 .section-2 {
 	background-color: #052D3D;
+	float: left;
+	width: 100%;
 }
 
 .section-3 {
 	background-color: #0E282E;
+	float: left;
+	width: 100%;
 }
 
 .section-4 {
 	background-color: #063647;
 	padding: 0.2rem;
+	float: left;
+	width: 100%;
+
 }
 
 a.nav-item {
@@ -44,7 +64,7 @@ a.nav-item:hover {
 
 .avatar{
 	height:150px;
-	border-radius: 50%;
+	border-radius: 20%;
 }
 
 .intro-description{
@@ -53,14 +73,14 @@ a.nav-item:hover {
 
 .social-container img{
 	max-width:100%;
-	max-height:175px;
-	margin-bottom:15px;
+	max-height:150px;
+	margin-bottom:150px;
 }
 
 .project-figure {
 	margin: 0 auto 1rem auto;
-	max-height: 200px;
-	max-width: 200px;
+	max-height: 150px;
+	max-width: 150px;
 }
 
 .project-text {
@@ -70,6 +90,8 @@ a.nav-item:hover {
 .box {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
+	height: 250px;
+	width: 350px;
 }
 
 .title {
