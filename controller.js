@@ -9,3 +9,16 @@ window.onload = () => {
   hamburger.addEventListener('click', () => toggle(navMenu, 'is-active'));
   Array.from(navItems).forEach(e => e.addEventListener('click', toggleNav));
 }
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
